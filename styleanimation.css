@@ -4,7 +4,7 @@
 /* hele letter m*/
 
 :root{
-	--letter-width:11.45vw;
+	--letter-width:9.25vw;
     --streepje-width:calc(var(--letter-width) / 6);
 
 	--color-animation:#433a00;
@@ -439,7 +439,7 @@
 	aspect-ratio:1;
 	background-color: var(--color-background-ani);
 	
-	display:grid;
+	display:flex;
 	align-items: center;
 
 	animation: none;
@@ -1012,7 +1012,7 @@
 
 @media ( width > 25em){
     :root{
-		--letter-width: 10.3vw;
+		--letter-width: 10vw;
 
     }
 }
