@@ -1012,7 +1012,7 @@
 
 @media ( width > 25em){
     :root{
-		--letter-width: 10vw;
+		--letter-width: min(10vw, 5em);
 
     }
 }
